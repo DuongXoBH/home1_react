@@ -1,0 +1,15 @@
+.about__text{
+    width: 483px;
+    margin: 12px 0 24px 0;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #8B8B8B;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: red;
+}

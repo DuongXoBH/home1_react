@@ -3,7 +3,7 @@
     height: 950px;
     position: absolute;
     top: 1448px;
-    /* background-image: url("../images/BackgroundBubble.png"); */
+    background-image: url("../assets/images/backgroundbubble.png");
     background-repeat: no-repeat;
     background-position: right top;
     z-index: -1;

@@ -1,4 +1,5 @@
-import "./about-us.css"
+import "./about-us.css";
+import styles from "./about-us.module.css";
 function AboutUsComponent() {
   return (
     <>
@@ -13,6 +14,14 @@ function AboutUsComponent() {
             Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in
             suspendisse placerat.
           </p>
+          {/* test */}
+          <p className={styles.about__text}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, quam
+            suscipit purus donec amet. Egestas volutpat facilisi eu libero.
+            Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in
+            suspendisse placerat.
+          </p>
+          {/* finish test */}
           <p className="about__text">
             Id dui erat sed quam tellus in purus. Pellentesque congue fringilla
             cras tellus enim.
