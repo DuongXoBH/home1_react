@@ -8,7 +8,6 @@ import ServiceComponent from './component/service'
 function App() {
   return (
     <div className="App">
-
     <HeaderComponent/>
     <ServiceComponent/>
     <AboutUsComponent/>

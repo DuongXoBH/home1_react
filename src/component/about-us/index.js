@@ -1,3 +1,4 @@
+import "./about-us.css"
 function AboutUsComponent() {
   return (
     <>
@@ -19,18 +20,16 @@ function AboutUsComponent() {
           <div className="about__btn">
             <button className="about__more-btn">Learn More</button>
             <button className="about__play-btn">
-              <img src="public/images/play-button.svg" alt="" />
+              <img src="assets/images/play-button.svg" alt="" />
               <p className="about__btn-text">Watch Video</p>
             </button>
           </div>
         </div>
         <div className="about__img">
           <img
-            src="public/images/about-us-img.png"
+            src="assets/images/about-us-img.png"
             className="about__image"
             alt=""
-            width="476px"
-            height="350px"
           />
         </div>
       </div>

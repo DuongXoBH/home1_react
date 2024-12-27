@@ -1,3 +1,4 @@
+import "./information.css";
 function InformationComponent() {
   return (
     <>
@@ -11,7 +12,7 @@ function InformationComponent() {
         </div>
         <div className="infor__item">
           <div className="infor__card">
-            <img src="public/images/professional-surgeon.png" alt="" />
+            <img src="assets/images/professional-surgeon.png" alt="" />
             <p className="professional__post">Surgeon</p>
             <p className="professional__name">Briyan Nevalli</p>
             <p className="professional__description">
@@ -19,13 +20,13 @@ function InformationComponent() {
               aliquam, purus sit
             </p>
             <div className="infor__media">
-              <img src="public/images/twitter-professional.svg" alt="" />
-              <img src="public/images/facebook-professional.svg" alt="" />
-              <img src="public/images/instagram-professional.svg" alt="" />
+              <img src="assets/images/twitter-professional.svg" alt="" />
+              <img src="assets/images/facebook-professional.svg" alt="" />
+              <img src="assets/images/instagram-professional.svg" alt="" />
             </div>
           </div>
           <div className="infor__card">
-            <img src="public/images/professional-bella.png" alt="" />
+            <img src="assets/images/professional-bella.png" alt="" />
             <p className="professional__post">Dermatologist</p>
             <p className="professional__name">Bella sebastian</p>
             <p className="professional__description">
@@ -33,13 +34,13 @@ function InformationComponent() {
               aliquam, purus sit
             </p>
             <div className="infor__media">
-              <img src="public/images/twitter-professional.svg" alt="" />
-              <img src="public/images/facebook-professional.svg" alt="" />
-              <img src="public/images/instagram-professional.svg" alt="" />
+              <img src="assets/images/twitter-professional.svg" alt="" />
+              <img src="assets/images/facebook-professional.svg" alt="" />
+              <img src="assets/images/instagram-professional.svg" alt="" />
             </div>
           </div>
           <div className="infor__card">
-            <img src="public/images/professional-lilly.png" alt="" />
+            <img src="assets/images/professional-lilly.png" alt="" />
             <p className="professional__post">Stylist expert</p>
             <p className="professional__name">Lilly Adams</p>
             <p className="professional__description">
@@ -47,9 +48,9 @@ function InformationComponent() {
               aliquam, purus sit
             </p>
             <div className="infor__media">
-              <img src="public/images/twitter-professional.svg" alt="" />
-              <img src="public/images/facebook-professional.svg" alt="" />
-              <img src="public/images/instagram-professional.svg" alt="" />
+              <img src="assets/images/twitter-professional.svg" alt="" />
+              <img src="assets/images/facebook-professional.svg" alt="" />
+              <img src="assets/images/instagram-professional.svg" alt="" />
             </div>
           </div>
         </div>

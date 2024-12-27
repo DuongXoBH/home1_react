@@ -1,3 +1,4 @@
+import "./contact-us.css";
 function ContactUsConponent() {
   return (
     <>
@@ -5,7 +6,7 @@ function ContactUsConponent() {
       <div className="contact container">
         <div className="contact__banner">
           <img
-            src="public/images/contact-animations.png"
+            src="assets/images/contact-animations.png"
             alt=""
             className="contact__img"
           />

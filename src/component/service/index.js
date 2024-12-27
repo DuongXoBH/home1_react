@@ -1,3 +1,4 @@
+import "./service.css";
 function ServiceComponent() {
   return (
     <div className="service container">
@@ -8,17 +9,17 @@ function ServiceComponent() {
     </div>
     <div className="service__item">
         <div className="service__card">
-            <img src="public/images/animation-1.png" alt=""/>
+            <img src="assets/images/animation-1.png" alt=""/>
             <p>Beauty consultation</p>
             <p>Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</p>
         </div>
         <div className="service__card">
-            <img src="public/images/animation-2.png" alt=""/>
+            <img src="assets/images/animation-2.png" alt=""/>
             <p>Skin treatments</p>
             <p>Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</p>
         </div>
         <div className="service__card">
-            <img src="public/images/animation-3.png" alt=""/>
+            <img src="assets/images/animation-3.png" alt=""/>
             <p>Beauty product</p>
             <p>Non parturient amet, feugiat tellus sagittis, scelerisque eget nulla turpis.</p>
         </div>

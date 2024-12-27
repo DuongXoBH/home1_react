@@ -1,0 +1,111 @@
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    margin-top: 127px;
+    overflow: hidden;
+}
+.service__content{
+    width:800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service__content p:first-child{
+    margin: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #FF64AE;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.service__tittle{
+    width: 432px;
+    height: 97px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 8px 0 14px 0;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    color: #091156;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.service__description{
+    width: 848px;
+    height: 51px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #8B8B8B;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.service__item{
+    height: 450px;
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: 343px 343px 343px;
+    gap: 56px;
+}
+.service__card{
+    height: 458px;
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white!important;
+    opacity: 1;
+    border-radius: 50px;
+    box-shadow: 0px 25px 50px 25px rgba(246, 247, 255, 1);
+    z-index: 1;
+}
+.service__card img{
+    width: 166px;
+    height: 166px;
+}
+.service__card p{
+    margin-top: 58px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: center;
+    color: #091156;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.service__card p:last-child{
+    max-width: 274px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #8B8B8B;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

@@ -1,0 +1,112 @@
+.about__bg{
+    width: 100%;
+    height: 950px;
+    position: absolute;
+    top: 1448px;
+    /* background-image: url("../images/BackgroundBubble.png"); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    z-index: -1;
+}
+.about{
+    width: 100%;
+    display: flex;
+    margin-top: 134px;
+    overflow: hidden;
+}
+.about__content{
+    width: 664px;
+    height: 292px;
+    gap: 0px;
+    opacity: 0px;  
+}
+.about__content p:first-child{
+    margin: 0;
+    width: 73px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #FF64AE;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.about__tittle{
+    width: 664px;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    margin: 12px 0 0 0;
+    color: rgba(9, 17, 86, 1);
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.about__text{
+    width: 483px;
+    margin: 12px 0 24px 0;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #8B8B8B;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.about__btn{
+    display: flex;
+    width: 500px;
+    height: 60px;
+    margin-top: 52px;
+}
+.about__more-btn{
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    color: antiquewhite;
+    background-color: #FF64AE;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 6px;
+    border: 0;
+}
+.about__play-btn{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0;
+}
+.about__play-btn .about__btn-text{
+    padding: 0 0 0 13px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    margin: 0;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.about__img{
+    width: 476px;
+    border-radius: 50px 0px 0px 0px;
+}
+.about__image{
+    margin-top: 45px ;
+}

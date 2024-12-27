@@ -1,0 +1,202 @@
+.footer__bg{
+    width: 100%;
+    height: 704.53px;
+    position: absolute;
+    top: 4283.66px;
+    background-image: url("../assets/images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+.footer__img{
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    position: absolute;
+    top: 4863px;
+    background-image: url("../assets/images/bottom-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+}
+.footer{
+    width: 100%;
+    margin-top: 295px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgba(215, 219, 255, 1);
+    overflow: hidden;
+}
+.footer__row-1{
+    width: 100%;
+    display: flex;
+}
+.footer__sidebar-1{
+    width: 492px;
+    margin-top: 16px;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+}
+.footer__content{
+    margin: 33px 0 0 30px;
+}
+.footer__description{
+    width: 461px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 0 0 26px 0;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.footer__description span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer__address{
+    width: 297px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.footer__bonus{
+    display: flex;
+    padding-left: 2px;
+    gap: 44px;
+}
+.footer__bonus p{
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.footer__logo p{
+    width: 161px;
+    height: 34px;
+    margin: 0 0 0 18px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.footer__sidebar-2{
+    margin-left: 129px;
+    text-align: left;
+}
+.footer__sidebar-3{
+    margin-left: 175px;
+    text-align: left;
+}
+.footer__sidebar-2 ul,.footer__sidebar-3 ul{
+    margin-top: 23px;
+}
+.footer__sidebar-2 ul li,.footer__sidebar-3 ul li{
+    list-style-image: url("../assets/images/vector.svg");
+    list-style-position: inside;
+    margin: 0 0 10px 4px;
+}
+.footer__text-1{
+    width: 131px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0;
+}
+.footer__text-2{
+    width: 300px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0;
+}
+.footer__sidebar-2 ul li a,.footer__sidebar-3 ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 0 0 16px 0;
+    padding: 0 0 0 2px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+}
+.footer__row-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 126px 0 0 0;
+}
+.footer__social{
+    width: 305px;
+    height: 27.84px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text-3{
+    width: 497px;
+    height: 31.18px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: right;
+    color: rgba(215, 219, 255, 1);
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.to-top__btn{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 10px;
+    bottom: 85px;
+    padding-block: 0px;
+    padding-inline: 0px;
+    cursor: pointer;
+}
